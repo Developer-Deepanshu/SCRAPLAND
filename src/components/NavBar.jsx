@@ -48,7 +48,7 @@ function NavBar() {
               <div className='d-flex align-items-center'>
                 <a href="" className='d-inline-block fs_sm ff_Inter
                text-white fw-normal hover_nav_btn tranisition_0_3 underLineNav'>Login</a>
-                <div className="hamburger-menu d-lg-none position-relative z_index_2"
+                <div className="hamburger-menu d-lg-none position-relative z_index_8"
                   onClick={() => setOpen(!open)}>
                   <div className="bar-top"></div>
                   <div className="bar-middle"></div>

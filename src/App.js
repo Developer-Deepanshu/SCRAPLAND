@@ -9,7 +9,7 @@ import OurFeatures from './components/OurFeatures';
 function App() {
   return (
     <>
-      <div className='min-vh-100 bg_hero'>
+      <div className='min_vh_xl_100 bg_hero'>
         <NavBar />
         <Hero />
       </div>
