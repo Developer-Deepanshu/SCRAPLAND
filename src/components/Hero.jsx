@@ -14,7 +14,7 @@ import Slider from "react-slick";
 
 function Hero() {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         autoplay: true,
         speed: 500,
@@ -28,6 +28,7 @@ function Hero() {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
+                    dots: false,
                 }
             },
             {
@@ -36,7 +37,7 @@ function Hero() {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-
+                    dots: false,
                 }
             }
         ]
@@ -62,7 +63,8 @@ function Hero() {
             <section>
                 <div className='container'>
                     <button
-                        className="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle d-none back_to_top_animation"
+                        className="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle
+                         d-none back_to_top_animation"
                         onClick={scrollToTop}
                         id="back-to-up">
                         <img className="w-100" src={upArrow} alt="back to top" />
@@ -113,8 +115,9 @@ function Hero() {
                         <div className='d-flex px-ms-3 px-2'>
                             <div className='position-relative col-12'>
                                 <img className='w-100 bg_card_gradient min_height_200 border_radius_16' src={hero_slider} alt="card" />
-                                <div className='position-absolute d-flex align-items-md-center bottom-0 w-100 justify-content-md-center flex-column flex-md-row pb-md-2'>
-                                    <div className='d-flex align-items-center'>
+                                <div className='position-absolute d-flex align-items-md-center bottom-0 w-100 justify-content-md-center
+                                 flex-column flex-md-row pb-md-2'>
+                                    <div className='d-flex align-items-center ps-md-3 ps-lg-0'>
                                         <img className='circles_w_21 mb-3' src={circles} alt="circles" />
                                         <div className='ms-2'>
                                             <p className='fw-semibold fs_md text-white ff_Poppins mb-0
@@ -144,7 +147,7 @@ function Hero() {
                             <div className='position-relative col-12'>
                                 <img className='w-100 bg_card_gradient min_height_200 border_radius_16' src={hero_slider} alt="card" />
                                 <div className='position-absolute d-flex align-items-md-center bottom-0 w-100 justify-content-md-center flex-column flex-md-row pb-md-2'>
-                                    <div className='d-flex align-items-center'>
+                                    <div className='d-flex align-items-center ps-md-3 ps-lg-0'>
                                         <img className='circles_w_21 mb-3' src={circles} alt="circles" />
                                         <div className='ms-2'>
                                             <p className='fw-semibold fs_md text-white ff_Poppins mb-0
@@ -173,8 +176,9 @@ function Hero() {
                         <div className='d-flex px-ms-3 px-2'>
                             <div className='position-relative col-12'>
                                 <img className='w-100 bg_card_gradient min_height_200 border_radius_16' src={hero_slider} alt="card" />
-                                <div className='position-absolute d-flex align-items-md-center bottom-0 w-100 justify-content-md-center flex-column flex-md-row pb-md-2'>
-                                    <div className='d-flex align-items-center'>
+                                <div className='position-absolute d-flex align-items-md-center bottom-0 w-100 justify-content-md-center
+                                 flex-column flex-md-row pb-md-2'>
+                                    <div className='d-flex align-items-center ps-md-3 ps-lg-0'>
                                         <img className='circles_w_21 mb-3' src={circles} alt="circles" />
                                         <div className='ms-2'>
                                             <p className='fw-semibold fs_md text-white ff_Poppins mb-0
